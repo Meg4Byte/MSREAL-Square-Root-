@@ -7,6 +7,9 @@ Razviti Linux drajver i odgovarajuću aplikaciju koja koristi drajver i demonstr
   - [Registar Ofseti](#registar-ofseti)
   - [Koraci](#koraci)
   - [Primer korišćenja drajvera](#primer-korišćenja-drajvera)
+- [Licenca](#licenca)
+- [Kontakt](#kontakt)
+- 
 ## Detaljan opis projekta
     
 ### Tekst zadatka projekta
@@ -59,4 +62,4 @@ Projekat je obljavljen pod MIT licencom , za vise detalja procitati https://open
 
 ## Kontakt 
 
-E-mail : petnenadd_d@uns.ac.rs .
+Za sva pitanja , nejasnoce , nedoumice , sugestije pisite mi na : petnenadd_d@uns.ac.rs .
