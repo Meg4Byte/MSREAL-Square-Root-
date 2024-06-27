@@ -222,7 +222,12 @@ Dijagram stanja :
 
     - Reset modul koji upravlja reset signalima za različite delove sistema kako bi se osigurao ispravan start i rad sistema.
 
+Funkcionalnost Sistema
 
+ - Memorijski mapirana sqrt jezgra: Svako sqrt jezgro koristi brute-force metod za računanje celobrojnog kvadratnog korena. Jezgra rade paralelno, što omogućava brže izračunavanje kada se obradi veći broj brojeva.
+ - Kontrola LED dioda: LED diode se pale kada je određeno sqrt jezgro aktivno, omogućavajući vizuelni prikaz rada sistema.
+ - AXI interfejs za komunikaciju: AXI interfejs omogućava efikasnu komunikaciju između procesorskog sistema i perifernih modula.
+    
 ## Izlazni signali
 
  TO DO (FALI SLIKA)
