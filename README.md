@@ -6,7 +6,7 @@ Razviti Linux drajver i odgovarajuću aplikaciju koja koristi drajver i demonstr
   - [Opis strukture hardvera](#opis-strukture-hardvera)
   - [Registar Ofseti](#registar-ofseti)
   - [Koraci](#koraci)
-  - [Primer korišćenja drajvera](#primer-koriscenja-drajvera)
+  - [Primer korišćenja drajvera](#primer-korišćenja-drajvera)
 ## Detaljan opis projekta
     
 ### Tekst zadatka projekta
