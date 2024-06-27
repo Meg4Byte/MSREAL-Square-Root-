@@ -51,3 +51,12 @@ cat /dev/sqrt
 ```
 # Očekivani izlaz:
 # 16:4, 255:25, 9:3, 10000:100, 176400:420, 16000000:4000, 25:5, 1073741824:32768
+
+   
+## Licenca 
+
+Projekat je obljavljen pod MIT licencom , za vise detalja procitati https://opensource.org/license/MIT 
+
+## Kontakt 
+
+E-mail : petnenadd_d@uns.ac.rs .
