@@ -7,6 +7,10 @@ Razviti Linux drajver i odgovarajuću aplikaciju koja koristi drajver i demonstr
   - [Registar Ofseti](#registar-ofseti)
   - [Koraci](#koraci)
   - [Primer korišćenja drajvera](#primer-korišćenja-drajvera)
+ 
+- [Opis algoritma](#opis-algoritma)
+- [ASM dijagram ](#asm-dijagram)
+- [Izlazni signali](#izlazni-signali)
 - [Licenca](#licenca)
 - [Kontakt](#kontakt)
 
@@ -52,9 +56,13 @@ echo “16,255,9,10000,176400,16000000,25,1073741824” > /dev/sqrt
 ```bash
 cat /dev/sqrt
 ```
-# Očekivani izlaz:
-# 16:4, 255:25, 9:3, 10000:100, 176400:420, 16000000:4000, 25:5, 1073741824:32768
+Očekivani izlaz: 16:4, 255:25, 9:3, 10000:100, 176400:420, 16000000:4000, 25:5, 1073741824:32768
 
+## Opis algoritma
+
+## ASM dijagram
+
+## Izlazni signali
    
 ## Licenca 
 
