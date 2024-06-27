@@ -9,7 +9,7 @@ Razviti Linux drajver i odgovarajuću aplikaciju koja koristi drajver i demonstr
   - [Primer korišćenja drajvera](#primer-korišćenja-drajvera)
 - [Licenca](#licenca)
 - [Kontakt](#kontakt)
-- 
+
 ## Detaljan opis projekta
     
 ### Tekst zadatka projekta
