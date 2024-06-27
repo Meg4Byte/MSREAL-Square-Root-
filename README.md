@@ -179,7 +179,7 @@ Dijagram stanja :
 
 ## RTL Model 
 
-![alt text](<Screenshot from 2024-04-25 22-28-03.png>)
+![image](https://github.com/Meg4Byte/MSREAL-Square-Root-/assets/121357383/43201999-512f-4244-af62-8d40513e7470)
 
 
 1. Struktura Sistema
@@ -202,10 +202,10 @@ Dijagram stanja :
     Ova jezgra koriste brute-force algoritam za računanje celobrojnog kvadratnog korena.
     
     - Svako jezgro ima 4 registra:
-      1. "X" (ulazni broj), 
-      2. "start" (pokretanje računanja), 
-      3. "Y" (izlazni rezultat), 
-      4. "ready" (statusni registar).
+      1.  "X" (ulazni broj), 
+      2.  "start" (pokretanje računanja), 
+      3.  "Y" (izlazni rezultat), 
+      4.  "ready" (statusni registar).
 
 4. GPIO Modul
 
