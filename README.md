@@ -259,8 +259,16 @@ Vremenski dijagram :
         
 ![regular](https://github.com/Meg4Byte/MSREAL-Square-Root-/assets/121357383/01b9485b-3db7-4390-980a-2170ec1a8b0d)
 
+Rezultati Testbenča :
 
+  Ovaj test slučaj izračunava kvadratni koren od 15.Zbog brute-force algoritma, izračunavanje rezultira zaokruživanjem na najbliži ceo broj manji od stvarnog kvadratnog korena.
+  Prelazi stanja koje se posmatraju su idle -> n_check -> lower -> final -> idle (0 -> 1 -> 2 -> 3 -> 0).
+  Isto kao u prethodnom slučaju u svakom koraku kada je kvadrat pretpostavljenog broja manji od zadatog ulaznog broja , ostaje se u stanju n_check i brojač se uveća za 1.
+  Nakon 5 koraka dobija se prelim posto je kvadrat broja 4 veci od ulaznog broja 15.Ovo znači da se rezultat zaokruzuje na prvi manji broj , odnosno 3.
+  Odlazi se u stanje lower potom u final i nakon toga u stanje idle.
 
+Vremenski dijagram : 
+  
 ![over_flow](https://github.com/Meg4Byte/MSREAL-Square-Root-/assets/121357383/51d6be34-1e9f-49e2-bd8f-09a2e873cf1c)
 
 ## Licenca 
