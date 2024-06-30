@@ -231,7 +231,7 @@ Funkcionalnost Sistema
  - AXI interfejs za komunikaciju:
    AXI interfejs omogućava efikasnu komunikaciju između procesorskog sistema i perifernih modula.
     
-## Testbench
+## Testbenč
 
 Na sledećim slikama su prikazani signali i stanja kada su zadati brojevi 16 i 15 , ovo brojevi su uzeti nasumično.
 Stanje mašine prelazi kroz različita stanja kako bi izračunala kvadratni koren datih celih brojeva. Testbenčevi potvrđuju funkcionalnost dizajna, uključujući slučajeve kada rezultat izračunavanja kvadratnog korena rezultira prelivanjem.
