@@ -233,8 +233,36 @@ Funkcionalnost Sistema
     
 ## Izlazni signali
 
- TO DO (FALI SLIKA)
-   
+Na sledećim slikama su prikazani signali i stanja kada su zadati brojevi 16 i 15 , ovo brojevi su uzeti nasumično.
+Stanje mašine prelazi kroz različita stanja kako bi izračunala kvadratni koren datih celih brojeva. Testbenčevi potvrđuju funkcionalnost dizajna, uključujući slučajeve kada rezultat izračunavanja kvadratnog korena rezultira prelivanjem.
+
+Kratak opis signala : 
+
+ - reset_tb: Resetuje stanje mašine na početno stanje.
+ - ready_tb: Indikuje da je stanje mašine spremno za novu operaciju.
+ - clk_tb: Signal sata za sinhronizaciju stanja mašine.
+ - start_tb: Inicira izračunavanje kvadratnog korena.
+ - x_in_tb[31:0]: Ulazni ceo broj za koji se izračunava kvadratni koren.
+ - curr_state[2:0]: Trenutno stanje mašine.
+ - result_out_tb[31:0]: Izlazni rezultat izračunavanja kvadratnog korena.
+
+Rezultati Testbenča :
+
+  Regularni Slučaj (Kvadratni koren od 16)
+  Ovaj test slučaj izračunava kvadratni koren od 16. 
+  Prelazi stanja koje se posmatraju su idle -> n_check -> final -> idle (0 -> 1 -> 3 -> 0).
+  U svakom koraku kada je kvadrat pretpostavljenog broja manji od zadatog ulaznog broja , ostaje se u stanju n_check i brojač se uveća za 1.
+  Nakon 5 koraka dobija se da je pretpostavljeni broj 4 i njegov kvadrat je jednak ulaznom broju 16. 
+  Odlazi se u stanje final i nakon toga u stanje idle.
+
+Vremenski dijagram :
+        
+![regular](https://github.com/Meg4Byte/MSREAL-Square-Root-/assets/121357383/01b9485b-3db7-4390-980a-2170ec1a8b0d)
+
+
+
+![over_flow](https://github.com/Meg4Byte/MSREAL-Square-Root-/assets/121357383/51d6be34-1e9f-49e2-bd8f-09a2e873cf1c)
+
 ## Licenca 
 
 Projekat je obljavljen pod MIT licencom , za više detalja pročitati https://opensource.org/license/MIT 
