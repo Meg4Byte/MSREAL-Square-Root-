@@ -12,7 +12,7 @@ Razviti Linux drajver i odgovarajuću aplikaciju koja koristi drajver i demonstr
   - [Opis algoritma](#opis-algoritma)
   - [ASM dijagram](#asm-dijagram)
   - [RTL Model](#rtl-model)
-  - [Testbench](#testbench)
+  - [Testbenč](#testbenč)
   - [Licenca](#licenca)
   - [Kontakt](#kontakt)
 
