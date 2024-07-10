@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sim_1/new/tb.vhd" Line 47
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sim_1/new/tb.vhd" Line 48
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/data_path.vhd" Line 34
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/data_path.vhd" Line 37
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/data_path.vhd" Line 39
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/data_path.vhd" Line 40
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/control_path.vhd" Line 27
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/control_path.vhd" Line 29
+Stopped at time : 1005 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/control_path.vhd" Line 30
+Stopped at time : 1010 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sim_1/new/tb.vhd" Line 45
+Stopped at time : 1010 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sim_1/new/tb.vhd" Line 46
+Stopped at time : 1010 ns : File "/home/medivh/Vivado_projects/Sqrt_linear/Sqrt_linear.srcs/sources_1/new/data_path.vhd" Line 34
