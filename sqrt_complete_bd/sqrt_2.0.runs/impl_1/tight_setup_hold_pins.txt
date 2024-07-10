@@ -1,8 +1,0 @@
-+====================+===================+==========================================================================+
-| Launch Setup Clock | Launch Hold Clock | Pin                                                                      |
-+====================+===================+==========================================================================+
-| s00_axi_aclk       | s00_axi_aclk      | sqrt_module_inst/control_path_inst/FSM_sequential_current_state_reg[1]/D |
-| s00_axi_aclk       | s00_axi_aclk      | sqrt_module_inst/control_path_inst/current_state_reg[1]/D                |
-| s00_axi_aclk       | s00_axi_aclk      | sqrt_module_inst/control_path_inst/current_state_reg[0]/D                |
-| s00_axi_aclk       | s00_axi_aclk      | sqrt_module_inst/control_path_inst/FSM_sequential_current_state_reg[0]/D |
-+--------------------+-------------------+--------------------------------------------------------------------------+
